@@ -1,0 +1,28 @@
+LA ALUMNA — WEB COMPLETA ACTUALIZADA
+
+PARA VERLA EN TU ORDENADOR
+Descomprime este ZIP y abre LA_ALUMNA.html en Chrome, Safari, Firefox o Edge.
+Es la versión en un único HTML con los recursos locales integrados.
+También puedes abrir index.html manteniendo el resto de archivos y carpetas junto a él.
+
+PARA PUBLICARLA
+1. Descomprime el ZIP.
+2. Sube TODO EL CONTENIDO de la carpeta LA_ALUMNA_WEB a la carpeta pública de tu alojamiento (normalmente public_html, www o httpdocs), o a la carpeta del subdominio elegido.
+3. index.html debe quedar en la raíz pública de esa web, junto a styles.css, app.js y la carpeta assets. Conserva los nombres y las subcarpetas.
+4. Abre tu dominio o subdominio mediante HTTPS.
+
+Es una web estática: no necesita WordPress, Node, base de datos, compilación ni instalación de dependencias.
+Incluye las últimas modificaciones de diseño, fotografías, libros 3D, entrevista y reseñas.
+
+ARCHIVOS
+index.html: página principal para publicar.
+styles.css y app.js: diseño e interacciones.
+assets/: fotografías, portadas, páginas originales y documentos.
+LA_ALUMNA.html: copia completa en un único HTML para visualizar o descargar.
+aviso-legal.html, privacidad.html y cookies.html: páginas informativas incluidas.
+
+NOTAS PARA QUIEN LA PUBLIQUE
+Los enlaces a librerías, medios y otras webs requieren Internet.
+Algunas portadas de otros libros intentan cargar la imagen oficial desde una web externa; se incluyen imágenes locales de respaldo.
+Google Analytics está desactivado (analyticsId vacío). No es necesario configurarlo para que funcione la web.
+Si se quiere activar Analytics o completar los metadatos para compartir, configurar el identificador y la URL pública definitivos en index.html y actualizar también LA_ALUMNA.html si se va a distribuir esa copia.
