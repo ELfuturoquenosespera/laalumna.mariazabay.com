@@ -402,3 +402,15 @@ h1,h2,h3,h4{font-family:var(--sans);font-style:normal;font-weight:650}
 @media(max-width:1100px) and (min-width:841px){.hero{gap:95px}.hero .hero-book-slot{left:-30px}.hero .book--hero:hover,.hero .book--hero.is-open,.hero .book--hero:focus-visible{transform:translateX(160px) rotateY(-7deg) rotateX(2deg)}}
 @media(max-width:840px){.hero{gap:35px;grid-template-columns:1fr}.hero .hero-book-slot{left:-10px}.hero .book--hero:hover,.hero .book--hero.is-open,.hero .book--hero:focus-visible{transform:translateX(160px) rotateY(-7deg) rotateX(2deg)}}
 @media(max-width:640px){.hero h1{font-size:49px}.hero-lead{font-size:30px}.section h2,.section h3,.story-heading h2,.universe-title h3,.synopsis-copy h3,.books-heading h3{font-size:43px!important}.pillar h4{font-size:clamp(16px,4vw,22px)}.pillar p{font-size:11px;line-height:1.55}.character-detail>p{font-size:16px}.identity{font-size:20px}.hero .hero-book-slot{left:-5px}.hero .book--hero:hover,.hero .book--hero.is-open,.hero .book--hero:focus-visible{transform:translateX(135px) rotateY(-7deg) rotateX(2deg)}}
+
+
+/* Corrección puntual: cinta de palabras continua bajo la portada 3D. */
+.theme-band-track { gap:0; width:max-content; animation:alumna-temas-ciclo 44s linear infinite; will-change:transform; }
+.theme-band-set { display:flex; flex:0 0 auto; align-items:center; gap:30px; padding-right:30px; white-space:nowrap; }
+.theme-band-set span { flex:0 0 auto; }
+.theme-band-set b { flex:0 0 auto; }
+@keyframes alumna-temas-ciclo { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .theme-band-track { animation:none; } }
+/* Enlace propio bajo la portada 3D, sin interferir con el clic que la abre. */
+.alumna-own-link { display:inline-block; font-size:11px; font-weight:600; padding-top:5px; color:#4d4743; text-decoration:underline; text-underline-offset:3px; }
+.site-footer .cookie-manage { background:transparent; border:0; color:inherit; font:inherit; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
